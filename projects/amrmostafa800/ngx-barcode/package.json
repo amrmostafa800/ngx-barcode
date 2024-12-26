@@ -4,9 +4,9 @@
   "description": "small try to update @greatcloak/ngx-barcode to angular V18",
   "repository": {
     "type": "git",
-    "url": "https://github.com/greatcloak/ngx-barcode"
+    "url": "https://github.com/amrmostafa800/ngx-barcode"
   },
-  "homepage": "https://github.com/greatcloak/ngx-barcode#readme",
+  "homepage": "https://github.com/amrmostafa800/ngx-barcode#readme",
   "author": {
     "name": "Bryon Williams",
     "email": "bryon.williams@live.com"
@@ -24,7 +24,7 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/greatcloak/ngx-barcode/issues"
+    "url": "https://github.com/amrmostafa800/ngx-barcode/issues"
   },
   "dependencies": {
     "tslib": "^2.8.1"
