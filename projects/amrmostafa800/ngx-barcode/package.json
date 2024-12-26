@@ -1,6 +1,6 @@
 {
   "name": "@amrmostafa800/ngx-barcode",
-  "version": "2.14.1",
+  "version": "2.14.2",
   "description": "small try to update @greatcloak/ngx-barcode to angular V18",
   "repository": {
     "type": "git",
