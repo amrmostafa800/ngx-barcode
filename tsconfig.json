@@ -11,14 +11,18 @@
     "moduleResolution": "node",
     "importHelpers": true,
     "allowSyntheticDefaultImports": true,
-    "target": "es2020",
-    "lib": ["es2020", "dom"],
+    "target": "ES2022",
+    "lib": [
+      "es2020",
+      "dom"
+    ],
     "paths": {
       "@greatcloak/ngx-barcode": [
         "dist/greatcloak/ngx-barcode/greatcloak-ngx-barcode",
         "dist/greatcloak/ngx-barcode"
       ]
-    }
+    },
+    "useDefineForClassFields": false
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
