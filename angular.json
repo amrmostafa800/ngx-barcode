@@ -3,30 +3,30 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "@greatcloak/ngx-barcode": {
+    "@amrmostafa800/ngx-barcode": {
       "projectType": "library",
-      "root": "projects/greatcloak/ngx-barcode",
-      "sourceRoot": "projects/greatcloak/ngx-barcode/src",
+      "root": "projects/amrmostafa800/ngx-barcode",
+      "sourceRoot": "projects/amrmostafa800/ngx-barcode/src",
       "prefix": "ngx",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
-            "tsConfig": "projects/greatcloak/ngx-barcode/tsconfig.lib.json",
-            "project": "projects/greatcloak/ngx-barcode/ng-package.json"
+            "tsConfig": "projects/amrmostafa800/ngx-barcode/tsconfig.lib.json",
+            "project": "projects/amrmostafa800/ngx-barcode/ng-package.json"
           },
           "configurations": {
             "production": {
-              "tsConfig": "projects/greatcloak/ngx-barcode/tsconfig.lib.prod.json"
+              "tsConfig": "projects/amrmostafa800/ngx-barcode/tsconfig.lib.prod.json"
             }
           }
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/greatcloak/ngx-barcode/src/test.ts",
-            "tsConfig": "projects/greatcloak/ngx-barcode/tsconfig.spec.json",
-            "karmaConfig": "projects/greatcloak/ngx-barcode/karma.conf.js"
+            "main": "projects/amrmostafa800/ngx-barcode/src/test.ts",
+            "tsConfig": "projects/amrmostafa800/ngx-barcode/tsconfig.spec.json",
+            "karmaConfig": "projects/amrmostafa800/ngx-barcode/karma.conf.js"
           }
         }
       }

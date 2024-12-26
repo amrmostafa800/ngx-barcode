@@ -1,6 +1,6 @@
 <div align="center">
   <img src="https://cdn.rawgit.com/yobryon/ngx-barcode/master/docs/assets/ngx-barcode.svg" width="200px" alt="ngx-barcode">
-  <h1 align="center">@greatcloak/ngx-barcode</h1>
+  <h1 align="center">@amrmostafa800/ngx-barcode</h1>
   <p>ngx-barcode repackaged and updated for Angular v9+ using the Angular CLI</p>
 </div>
 
@@ -16,7 +16,7 @@ This repository is a repackaged and updated version of ngx-barcode.
 
 Install via
 
-`npm i --save @greatcloak/ngx-barcode`
+`npm i --save @amrmostafa800/ngx-barcode`
 
 # Original
 
@@ -52,7 +52,7 @@ This is an updated and repackaged version of the original ngx-barcode. We have r
 To use ngx-barcode in your project, install it via npm:
 
 ```bash
-$ npm install --save @greatcloak/ngx-barcode
+$ npm install --save @amrmostafa800/ngx-barcode
 ```
 
 ## Usage
@@ -66,7 +66,7 @@ import { NgModule } from '@angular/core'
 import { AppComponent } from './app.component'
 
 // Import ngx-barcode module
-import { NgxBarcodeModule } from '@greatcloak/ngx-barcode'
+import { NgxBarcodeModule } from '@amrmostafa800/ngx-barcode'
 
 @NgModule({
   declarations: [AppComponent],
@@ -89,7 +89,7 @@ Once the library is imported, you can use the ngx-barcode component in your Angu
 
 ## Development
 
-To build the `@greatcloak/ngx-barcode` library using the angular cli use the following command.
+To build the `@amrmostafa800/ngx-barcode` library using the angular cli use the following command.
 
 ```bash
 npm run build

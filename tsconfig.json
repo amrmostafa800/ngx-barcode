@@ -5,19 +5,18 @@
     "outDir": "./dist/out-tsc",
     "sourceMap": true,
     "declaration": false,
-    "downlevelIteration": true,
+    "esModuleInterop": true,
     "experimentalDecorators": true,
     "module": "es2020",
     "moduleResolution": "node",
     "importHelpers": true,
-    "allowSyntheticDefaultImports": true,
     "target": "ES2022",
     "lib": [
       "es2020",
       "dom"
     ],
     "paths": {
-      "@greatcloak/ngx-barcode": [
+      "@amrmostafa800/ngx-barcode": [
         "dist/greatcloak/ngx-barcode/greatcloak-ngx-barcode",
         "dist/greatcloak/ngx-barcode"
       ]
