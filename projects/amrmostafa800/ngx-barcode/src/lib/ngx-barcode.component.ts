@@ -32,8 +32,9 @@ export type FormatCode =
   | 'codabar'
 
 @Component({
-  selector: 'ngx-barcode',
-  template: ` <div #bcElement [class]="cssClass"></div> `,
+    selector: 'ngx-barcode',
+    template: ` <div #bcElement [class]="cssClass"></div> `,
+    standalone: false
 })
 export class NgxBarcodeComponent implements OnChanges {
   @Input('bc-element-type')
